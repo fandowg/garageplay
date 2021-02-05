@@ -1,17 +1,19 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
-<link rel="stylesheet" href="css/sky-forms.css" type="text/css">
-<link rel="stylesheet" href="js/owl.carousel/assets/owl.carousel.css">
-<link rel="stylesheet" href="css/style.css" type="text/css">
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<!--[if lt IE 9]>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="shortcut icon" type="/image/png" href="./images/favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/sky-forms.css" type="text/css">
+  <link rel="stylesheet" href="js/owl.carousel/assets/owl.carousel.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -19,7 +21,7 @@
 
 <!--跳出訊息-->
 
-<div   class="modal fade"  id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" style="margin-top:200px;">
     <button type="button" style="color:#fff; box-shadow:none; opacity:1; margin-top:-30px;" class="close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
     <div class=" embed-responsive embed-responsive-16by9">
@@ -32,7 +34,7 @@
 
 <!--跳出訊息-->
 
-<div   class="modal fade"  id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" style="margin-top:200px;">
     <button type="button" style="color:#fff; box-shadow:none; opacity:1; margin-top:-30px;" class="close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
     <img src="images/default.jpg"></div>
@@ -41,169 +43,161 @@
 <!--end跳出訊息-->
 
 <body>
-<header class="header-fix navbar-fixed-top">
-  <div class="container">
-    <div class="logo"> <a href="index.html"> <img src="images/headerLogo.png" alt="GARAGE PLAY 車庫"> </a> </div>
-    <nav class="menu_main">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#navbar-collapse-1"><i class="fa fa-bars"></i></button>
+  <header class="header-fix navbar-fixed-top">
+    <div class="container">
+      <div class="logo"> <a href="index.html"> <img src="images/headerLogo.png" alt="GARAGE PLAY 車庫"> </a> </div>
+      <nav class="menu_main">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#navbar-collapse-1"><i class="fa fa-bars"></i></button>
+        </div>
+        <div id="navbar-collapse-1" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav nav-top-add">
+            <li> <a href="">電影</a> </li>
+            <li> <a href="">情報</a> </li>
+            <li> <a href="">APP</a> </li>
+            <li> <a href="">Insider</a> </li>
+            <li>
+              <div class="home-search">
+                <input placeholder="">
+                搜尋
+                <button><i class="fa fa-search"></i> </button>
+              </div>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right nav-bottom-add">
+            <li class="dropdown"> <a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">MENU <i class="fa fa-sort-desc" aria-hidden="true"></i> </a>
+              <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="drop3">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="">會員資料</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="">訂單紀錄</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="">登出</a></li>
+              </ul>
+            </li>
+            <li> <a href=""> 購物車 <i class="fa fa-shopping-cart" aria-hidden="true"></i><span>(2)</span> </a> </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="movie-list-box">
+    <div class="container">
+      <div class="tit-new">
+        <h1>媒體專區</h1>
       </div>
-      <div id="navbar-collapse-1" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav nav-top-add">
-          <li> <a href="">電影</a> </li>
-          <li> <a href="">情報</a> </li>
-          <li> <a href="">APP</a> </li>
-          <li> <a href="">Insider</a> </li>
-          <li>
-            <div class="home-search">
-              <input placeholder="">
-              搜尋
-              <button><i class="fa fa-search"></i> </button>
-            </div>
-          </li>
+      <div class="sel-year-box clearfix">
+
+        <div class="sel-year-right">
+          <input type="text" placeholder="搜尋新聞"> <button> <i class="fa fa-search" aria-hidden="true"></i></button>
+
+        </div>
+
+
+        <div class="sel-year-left clearfix">
+          <select name="" class="sel-year">
+            <option value="1">2017年</option>
+            <option value="2">2018年</option>
+            <option value="3">2019年</option>
+          </select>
+          <select name="" class="sel-mon">
+            <option value="1">1月</option>
+            <option value="2">2月</option>
+            <option value="3">3月</option>
+          </select>
+        </div>
+
+
+      </div>
+      <div class="news-box">
+        <ul class="news-cont">
+          <h4> 2017年6月 </h4>
+          <li> <a href="article-content.html">
+              <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/493/default.jpg"></div>
+              <div class="news-cont-right"> <span>6月18日</span>
+                <div class="news-cont-tittle">傑尼斯偶像堂本剛拒演反派想演《銀魂》吉祥物？長澤雅美下海扮母猩猩？ 《銀魂》公開最新日版宣傳影片 7月15日 台灣與日本同檔期上映 片商順勢推出「創作大賽：這不是阿姆斯特朗旋風噴射阿姆斯特朗炮嗎完成度真高啊」活動</div>
+              </div>
+            </a> </li>
+          <li> <a href="article-content.html">
+              <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/489/default.jpg"></div>
+              <div class="news-cont-right"> <span>6月18日</span>
+                <div class="news-cont-tittle">《惡女》血腥程度超越《大叔》！全新定義動作電影 入選蒙特婁奇幻影展開幕片 《惡女》6月16日 全台上映</div>
+              </div>
+            </a> </li>
+          <li> <a href="article-content.html">
+              <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/488/default.jpg"></div>
+              <div class="news-cont-right"> <span>6月18日</span>
+                <div class="news-cont-tittle">暗黑金秀賢大銀幕新作《REAL》　首度挑戰一人分飾兩角 8月4日 全台上映</div>
+              </div>
+            </a> </li>
+          <li> <a href="article-content.html">
+              <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/449/default.jpg"></div>
+              <div class="news-cont-right"> <span>6月18日</span>
+                <div class="news-cont-tittle">《惡女》金玉彬開場七分鐘血戰秒殺百人 演活女殺手竟意外變醜？ 《惡女》獲選為紐約亞洲電影節閉幕片 6月16日 台灣上映</div>
+              </div>
+            </a> </li>
+          <li> <a href="article-content.html">
+              <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/444/default.jpg"></div>
+              <div class="news-cont-right"> <span>6月18日</span>
+                <div class="news-cont-tittle">FlicksHouse夜幕電影院 法國影帝尚杜賈丹《我的哈比情人》化身哈比人風趣追愛 6月7日 樂聲廣場免費星空獻映</div>
+              </div>
+            </a> </li>
         </ul>
-        <ul class="nav navbar-nav navbar-right nav-bottom-add">
-          <li class="dropdown"> <a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">MENU <i class="fa fa-sort-desc" aria-hidden="true"></i> </a>
-            <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="drop3">
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="">會員資料</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="">訂單紀錄</a></li>
-              <li role="presentation" class="divider"></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="">登出</a></li>
-            </ul>
-          </li>
-          <li> <a href=""> 購物車 <i class="fa fa-shopping-cart" aria-hidden="true"></i><span>(2)</span> </a> </li>
+
+        <ul class="news-cont">
+          <h4> 2017年5月 </h4>
+
+          <li> <a href="article-content.html">
+              <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/493/default.jpg"></div>
+              <div class="news-cont-right"> <span>6月18日</span>
+                <div class="news-cont-tittle">傑尼斯偶像堂本剛拒演反派想演《銀魂》吉祥物？長澤雅美下海扮母猩猩？ 《銀魂》公開最新日版宣傳影片 7月15日 台灣與日本同檔期上映 片商順勢推出「創作大賽：這不是阿姆斯特朗旋風噴射阿姆斯特朗炮嗎完成度真高啊」活動</div>
+              </div>
+            </a> </li>
+
+
+          <li> <a href="article-content.html">
+              <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/489/default.jpg"></div>
+              <div class="news-cont-right"> <span>6月18日</span>
+                <div class="news-cont-tittle">《惡女》血腥程度超越《大叔》！全新定義動作電影 入選蒙特婁奇幻影展開幕片 《惡女》6月16日 全台上映</div>
+              </div>
+            </a> </li>
+
+          <li> <a href="article-content.html">
+              <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/488/default.jpg"></div>
+              <div class="news-cont-right"> <span>6月18日</span>
+                <div class="news-cont-tittle">暗黑金秀賢大銀幕新作《REAL》　首度挑戰一人分飾兩角 8月4日 全台上映</div>
+              </div>
+            </a> </li>
+
+
+
         </ul>
       </div>
-    </nav>
-  </div>
-</header>
-<div class="movie-list-box">
-  <div class="container">
-    <div class="tit-new">
-      <h1>媒體專區</h1>
-    </div>
-    <div class="sel-year-box clearfix">
-    
-    <div class="sel-year-right">
-  <input type="text" placeholder="搜尋新聞"> <button>  <i class="fa fa-search" aria-hidden="true"></i></button>
-    
-    </div>
-    
-    
-    <div class="sel-year-left clearfix">
-    <select name="" class="sel-year" >
-      <option value="1">2017年</option>
-      <option value="2">2018年</option>
-      <option value="3">2019年</option>
-    </select>
-    <select name="" class="sel-mon" >
-      <option value="1">1月</option>
-      <option value="2">2月</option>
-      <option value="3">3月</option>
-    </select>
-    </div>
-   
-   
-    </div>
-    <div class="news-box">
-      <ul class="news-cont">
-        <h4> 2017年6月 </h4>
-        <li > <a href="article-content.html">
-          <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/493/default.jpg"></div>
-          <div class="news-cont-right"> <span>6月18日</span>
-            <div class="news-cont-tittle">傑尼斯偶像堂本剛拒演反派想演《銀魂》吉祥物？長澤雅美下海扮母猩猩？ 《銀魂》公開最新日版宣傳影片 7月15日 台灣與日本同檔期上映 片商順勢推出「創作大賽：這不是阿姆斯特朗旋風噴射阿姆斯特朗炮嗎完成度真高啊」活動</div>
-          </div>
-          </a> </li>
-        <li > <a href="article-content.html">
-          <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/489/default.jpg"></div>
-          <div class="news-cont-right"> <span>6月18日</span>
-            <div class="news-cont-tittle">《惡女》血腥程度超越《大叔》！全新定義動作電影 入選蒙特婁奇幻影展開幕片 《惡女》6月16日 全台上映</div>
-          </div>
-          </a> </li>
-        <li > <a href="article-content.html">
-          <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/488/default.jpg"></div>
-          <div class="news-cont-right"> <span>6月18日</span>
-            <div class="news-cont-tittle">暗黑金秀賢大銀幕新作《REAL》　首度挑戰一人分飾兩角 8月4日 全台上映</div>
-          </div>
-          </a> </li>
-        <li > <a href="article-content.html">
-          <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/449/default.jpg"></div>
-          <div class="news-cont-right"> <span>6月18日</span>
-            <div class="news-cont-tittle">《惡女》金玉彬開場七分鐘血戰秒殺百人 演活女殺手竟意外變醜？ 《惡女》獲選為紐約亞洲電影節閉幕片 6月16日 台灣上映</div>
-          </div>
-          </a> </li>
-        <li > <a href="article-content.html">
-          <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/444/default.jpg"></div>
-          <div class="news-cont-right"> <span>6月18日</span>
-            <div class="news-cont-tittle">FlicksHouse夜幕電影院 法國影帝尚杜賈丹《我的哈比情人》化身哈比人風趣追愛 6月7日 樂聲廣場免費星空獻映</div>
-          </div>
-          </a> </li>
-      </ul>
-      
-      <ul class="news-cont">
-        <h4> 2017年5月 </h4>
-      
-      <li > <a href="article-content.html">
-          <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/493/default.jpg"></div>
-          <div class="news-cont-right"> <span>6月18日</span>
-            <div class="news-cont-tittle">傑尼斯偶像堂本剛拒演反派想演《銀魂》吉祥物？長澤雅美下海扮母猩猩？ 《銀魂》公開最新日版宣傳影片 7月15日 台灣與日本同檔期上映 片商順勢推出「創作大賽：這不是阿姆斯特朗旋風噴射阿姆斯特朗炮嗎完成度真高啊」活動</div>
-          </div>
-          </a> </li>
-      
-      
-      <li > <a href="article-content.html">
-          <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/489/default.jpg"></div>
-          <div class="news-cont-right"> <span>6月18日</span>
-            <div class="news-cont-tittle">《惡女》血腥程度超越《大叔》！全新定義動作電影 入選蒙特婁奇幻影展開幕片 《惡女》6月16日 全台上映</div>
-          </div>
-          </a> </li>
-     
-       <li > <a href="article-content.html">
-          <div class="news-cont-img"><img src="http://flicksbank.console360.net/news/488/default.jpg"></div>
-          <div class="news-cont-right"> <span>6月18日</span>
-            <div class="news-cont-tittle">暗黑金秀賢大銀幕新作《REAL》　首度挑戰一人分飾兩角 8月4日 全台上映</div>
-          </div>
-          </a> </li>
-      
-      
-
-      </ul>
     </div>
   </div>
-</div>
-<footer>
-  <div class="container">
-    <div class="footer-data"> Copyright © 2015  GaragePlay All rights reserved. </div>
-    <div class="footer-r"> <a href=""> 隱私權政策 </a> ｜ <a href=""> 聯絡我們 </a> ｜ <a href=""> 關於GaragePlay </a> ｜ <a href=""> 服務條款 </a> ｜ <a href=""> 媒體專區 </a> <a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a> <a href=""> <i class="fa fa-youtube" aria-hidden="true"></i> </a> </div>
-  </div>
-</footer>
-<!--Back to top--> 
-<a href="" class="scrollup"><i class="fa fa-chevron-circle-up"></i></a> 
+  <footer>
+    <div class="container">
+      <div class="footer-data"> Copyright © 2015 GaragePlay All rights reserved. </div>
+      <div class="footer-r"> <a href=""> 隱私權政策 </a> ｜ <a href=""> 聯絡我們 </a> ｜ <a href=""> 關於GaragePlay </a> ｜ <a href=""> 服務條款 </a> ｜ <a href=""> 媒體專區 </a> <a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a> <a href=""> <i class="fa fa-youtube" aria-hidden="true"></i> </a> </div>
+    </div>
+  </footer>
+  <!--Back to top-->
+  <a href="" class="scrollup"><i class="fa fa-chevron-circle-up"></i></a>
 
-<!--Javascript Plugin--> 
-<script src="js/totop.js" type="text/javascript"></script> 
-<script src="js/owl.carousel/owl.carousel.js" type="text/javascript"></script> 
+  <!--Javascript Plugin-->
+  <script src="js/totop.js" type="text/javascript"></script>
+  <script src="js/owl.carousel/owl.carousel.js" type="text/javascript"></script>
 
-<!--Owl-carousel Call the plugin--> 
+  <!--Owl-carousel Call the plugin-->
 
-<script type="text/javascript" src="js/masonry.pkgd.min.js"></script> 
-<script>
-  jQuery(window).on('load', function(){
-	
-
-        $('.pos-box').masonry({        
-            itemSelector: '.box-n',
-     
-        
-  percentPosition: true
-   
-	
-});
-    
+  <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+  <script>
+    jQuery(window).on('load', function() {
+      $('.pos-box').masonry({
+        itemSelector: '.box-n',
+        percentPosition: true
+      });
+      s
     });
-
-
-    
-    </script>
+  </script>
 </body>
+
 </html>
